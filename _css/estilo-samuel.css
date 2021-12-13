@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url(../_fonts/cour.ttf);
+}
+@font-face {
+    font-family: 'FonteFuturista';
+    src: url(../_fonts/Jost_Futuristic_Style.ttf);
+}
+@font-face {
+    font-family: 'FonteSubtextos';
+    src: url(../_fonts/RobotoCondensed-Bold.ttf);
+}
+body{
+    background-color:rgb(3, 173, 185);
+    background:url("../_backgrounds/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-for-product.jpg")
+}
+a{
+    color:rgba(0, 0, 0, 0.699);
+    text-decoration:none;
+    
+}
+a:hover{
+    color:blueviolet;
+}
+p{
+    font-family: "FonteSubtextos";
+    font-size: 14pt;
+}
+h1{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+}
+/*Texto do meio para baixo*/
+article#texto-principal{
+    text-align:center;
+}
+.fundotexto{
+    text-align:center;
+    font-family: 'FonteLogo';
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    background-color: rgba(1, 204, 255, 0.082);
+    border-radius: 35px;
+    border-style: solid;
+    border-color:rgba(20, 190, 220, 0.1);
+    font-size:18pt;
+}
+.fundotexto1{
+    text-align:center;
+    font-family: 'FonteLogo';
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    background-color: rgba(1, 204, 255, 0.082);
+    border-radius: 35px;
+    border-style: solid;
+    border-color:rgba(20, 190, 220, 0.1);
+    font-size:30pt;
+}
+h6{
+    text-align: right;
+    color:rgba(255, 255, 255, 0.801)
+}
+h4{
+    text-align: right;
+}
+h4 :hover{
+    opacity: 0.9;
+    color: black;
+    transition: 0.75s;
+}
+
+.textospag1{
+    font-family:'FonteSubtextos'
+}
+div#interface{
+    width:auto;
+    background-color: rgba(1, 204, 255, 0.082);
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 130px;
+    border-radius: 10px;
+}
+div#interface1{
+    width:auto;
+    margin: 0px auto 0px auto;
+    padding: 100px;
+    border-radius: 10px;
+    text-align:center;
+
+}
+div#interface2{
+    width:auto;
+    margin: 0px auto 0px auto;
+    padding: 50px;
+    border-radius: 10px;
+    text-align:center;
+
+}
+div#interface3{
+    padding: 100px;
+    border-radius: 1000px;
+}
+img#foto-samuel1 {
+    width:auto;
+    height:auto;
+    max-width:235px;
+    max-height: 235px;
+    left: 600px;
+    top: 50px;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+
+.container{
+    
+    display: flex;
+
+    color: white;
+    text-align:right;
+    padding:10px;
+    margin-top: 0px;
+}
+.entrada{
+    font-family: "FonteFuturista";
+}
+.titulo1{
+    
+    color: white;
+    margin: 25px;
+}
+
+.container2{
+    margin: 10px;
+    font-family: 'FonteLogo';
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    text-align: justify;
+
+}
+.textomotiva :hover{
+    opacity: 0.9;
+    color: black;
+    transition: 0.75s;
+}
+.textomotiva{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+.textomotiva1{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(137, 43, 226, 0.2);
+    border-radius: 50px;
+    padding: 5px;
+    text-align: left;
+    color: white;
+   
+    width: 55px;
+}
+.textomotiva1 :hover{
+    opacity: 0.9;
+    color: black;
+    transition: 0.75s;
+}
+.inicio1 .foto-samuel1{
+  
+    margin:  auto;
+    
+}
+
+/*CabeCalho header*/
+
+header#cabecalho2{
+    border-bottom: 1px rgba(55, 55, 56, 0.233) solid;
+    
+}
+header#cabecalho{
+    border-bottom: 1px rgba(55, 55, 56, 0.233) solid;
+    height: 500px;
+    background:url("../_backgrounds/fundo10.png")
+}
+header#cabecalho1{
+    border-bottom: 1px rgba(55, 55, 56, 0.233) solid;
+    height: 350px;
+    background:url("../_backgrounds/fundo10.png")
+}
+header#cabecalho h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding:0px;
+    margin-bottom:0px;
+    letter-spacing: 5px;
+}
+
+
+
+/*Formatação de imagens com legendas.*/
+.textomotiva2{
+    position: relative;
+    text-align: center;
+}
+.foto-legenda img{
+    border-radius: 15px;
+}
+.foto-legenda2 img{
+    border-radius:15px;
+}
+.foto-legenda3 img{
+    border-radius:15px;
+}
+
+.foto-legenda figcaption{
+    opacity: 0;
+    position:absolute;
+    top:0px;
+    background-color: rgba(225, 0, 255, 0.171);
+    color: white;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.75s;
+    border-radius: 5px;
+    
+}
+.foto-legenda2 figcaption{
+    opacity: 0;
+    position:absolute;
+    top:0px;
+    background-color: rgba(225, 0, 255, 0.171);
+    color: white;
+    width: 400px;
+    height: 390px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.75s;
+    border-radius: 5px;
+}
+.foto-legenda3 figcaption span{
+    display: block;
+    float: right;
+    color:rgba(255, 255, 255, 0.55);
+    font-size: 14pt;
+    font-family:'FonteLogo';
+}
+.foto-legenda2 figcaption span{
+    display: block;
+    float: right;
+    color:rgba(255, 255, 255, 0.55);
+    font-size: 14pt;
+    font-family:'FonteLogo';
+}
+.foto-legenda figcaption span{
+    display: block;
+    float: right;
+    color:rgba(255, 255, 255, 0.55);
+    font-size: 14pt;
+    font-family:'FonteLogo';
+}
+.foto-legenda3 figcaption{
+    opacity: 0;
+    position:absolute;
+    top:0px;
+    background-color: rgba(225, 0, 255, 0.171);
+    color: white;
+    width: 400px;
+    height: 290px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.75s;
+    border-radius: 5px;
+}
+.foto-legenda:hover figcaption{ 
+    opacity:1;
+}
+.foto-legenda2:hover figcaption{
+    opacity: 1;
+}
+.foto-legenda3:hover figcaption{
+    opacity:1;
+}
+.foto-legenda{
+    position: relative;
+    border:7px solid rgba(68, 67, 67, 0.6);
+    box-shadow: 1px 1px 4px black;
+    height: 250px;
+    width:400px;
+    border-radius: 25px;
+    
+}
+.foto-legenda2{
+    position: relative;
+    border:7px solid rgba(68, 67, 67, 0.6);
+    box-shadow: 1px 1px 4px black;
+    height: 385px;
+    width:400px;
+    border-radius: 25px;
+}
+
+.foto-legenda3{
+    position: relative;
+    border:7px solid rgba(68, 67, 67, 0.6);
+    box-shadow: 1px 1px 4px black;
+    height: 285px;
+    width:400px;
+    border-radius: 25px;
+}
+.foto-legenda4{
+ float: left;
+}
+.linkfoto{
+    border-radius: 25px;
+}
+a#a-pad{
+    padding: 80px;
+}
+    /*Formatacao do menu */
+.menu li:hover{
+    background:rgba(255, 255, 255, 0.26);
+}
+.menu{
+    display: block;
+    font-family: 'FonteSubTextos';
+    letter-spacing: 4px;
+    
+
+}
+.menu ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: auto;
+}
+.menu li{
+    display:inline-block;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    margin:20px 0px 0px 0px;
+    
+}
+.menu h1{
+    display:none;
+}
+.menu a{
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration:none;
+}
+.menu a:hover{
+    color:rgba(255, 255, 255, 0.815);
+    text-decoration:underline;
+}
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid rgba(68, 67, 67, 0.6);
+    padding: 35px;
+}
+table#tabelaspec1 caption{
+    text-align:center;
+    font-family: 'FonteLogo';
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    font-size: 20pt;
+}
+table#tabelaspec2 caption{
+    text-align:center;
+    font-family: 'FonteLogo';
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    font-size: 20pt;
+}
+
+table#tabelaspec1{
+    
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    width:450px;
+    height:100px;  
+}
+table#tabelaspec2{
+    
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    width:450px;
+    height:100px;  
+}
+
+table#tabelaspec1 td{
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
+table#tabelaspec2 td{
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
+aside#lateral{
+    display: block;
+    width: 450px;
+    float: left;
+    padding:35px;
+    border-right: 1px solid rgba(68, 67, 67, 0.6);
+}
+footer#rodape{
+    font-family:'FonteSubtextos';
+    letter-spacing: 1px;
+    clear: both;
+    text-align: center;
+}
+aside#lateral2{
+    display: block;
+    width: 450px;
+    float: left;
+    padding:35px;
+   
+}
+footer#rodape a{
+    letter-spacing: 4px;
+}
+.imagensc{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.678);
+    text-decoration:none;
+    
+}
+.imagensc :hover{
+    color: rgba(255, 255, 255, 0.739);
+    transition: 0.75s;
+}
+.textoh6{
+    text-align:center;
+    margin: -20px;
+    font-family:"FonteLogo";
+}
+section#conteudo{
+    width: 1000px;
+    margin:auto;
+    
+
+}
+section#conteudo1 img{
+    border-radius: 25px;
+    margin:20px 100px 0px 0px;
+
+}
+iframe#frame-spec{
+    width:500px;
+    height:380px;
+    border:none;
+    overflow: hidden;
+    border-radius: 35px;
+ 
+}
+div#musica{
+    padding:50px;
+}
+.fundoroxo{
+    background-color: rgba(137, 43, 226, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    font-family: "FonteSubTextos";
+    color: rgba(0, 0, 0, 0.753);
+    padding: 15px;
+}
+.fundoroxo1{
+    background-color: rgba(137, 43, 226, 0.1);
+    border-radius: 10px;
+    width:780px;
+    font-family: "FonteSubTextos";
+    color: rgba(0, 0, 0, 0.753);
+    padding: 15px;
+    margin:0px 400px;
+   
+}
+
+div#contato1 img{
+    margin: 0 100px;
+    border-radius: 35px;
+}
+div#contato1{
+    text-align:center;
+}
+fieldset#cenviar input{
+    padding: 15px;
+    font-size: 15pt;
+    border-radius: 40px;
+    text-align:right;
+    margin-top: 20px;
+}
+
+fieldset#cenviar{
+    border: none;
+}
+form#formula1 fieldset{
+    border-color: rgba(255, 255, 255, 0.3);;
+    border-radius: 15px;
+}
+form#formula1 input:hover{
+    background-color:rgba(255, 255, 255, 0.9);
+}
+
+form#formula1 legend{
+    color: rgba(255, 255, 255, 0.85);
+}
+form#formula1{
+    width: 750px;
+    margin: auto;
+}
